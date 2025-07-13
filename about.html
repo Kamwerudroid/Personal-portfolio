@@ -3,14 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
     <title>About</title>
+    <style>
+      .h1, p, h3{
+        font-family: "Electrolize", sans-serif;
+      }
+      .footer{
+    background-color: black;
+    text-decoration: aqua;
+        }
+      img{
+        width: 25px; height: 25px;
+      }
+      .box{
+        border: 2px solid black;
+        margin: 20px;
+      }
+    </style>
     <h1>About</h1>
   </head>
 
   <body>
-    <div>
+    <div class="box">
       <p>
-        Hello!. I am Maina Kamweru. I am passionate about software development.
+        Hello! I am Maina Kamweru. I am passionate about software development.
         I am interested in both the frontend and backend of a website.
       </p>
       <p>
@@ -26,35 +45,49 @@
     </div>
     <div>
         <h3>Technical Expertise</h3>
-        <div>
-            <p>Git</p>
+        <div class="box">
+            <p>Git & Version Control</p>
             <img src="git_logo_icon_181349.png" alt="git">
         </div>
-        <div>
+        <div class="box">
             <p>HTML</p>
             <img src="html_logo.png" alt="html">
         </div>
-        <div>
+        <div class="box">
             <p>CSS</p>
             <img src="css_logo.png" alt="css">
         </div>
-        <div>
+        <div class="box">
             <p>Javascript</p>
-            <img src="" alt="javascript">
+            <img src="logos\javascript-logo-png-transparent.png" alt="javascript">
+        </div>
+        <div class="box">
+          <p>Python</p>
+          <img src="logos\python-5-logo-png-transparent.png" alt="python">
+        </div>
+        <div class="box">
+          <p>React</p>
+          <img src="logos\react-1-logo-png-transparent.png" alt="react">
+        </div>
+        <div class="box">
+          <p>Django</p>
+          <img src="logos\django-community-logo-png-transparent.png" alt="Django">
         </div>
         <div>
             <p></p>
         </div>
     </div>
-    <footer>
-      <a href="education.html">Education</a>
-      <br />
-      <a href="hobbies.html">Hobbies</a>
-      <br />
-      <a href="skills.html">Skills</a>
-      <br />
-      <a href="index.html">Home</a>
-      <hr />
-    </footer>
+    <footer class="footer">
+    <div>
+    <a href="index.html">Home</a>
+    <br>
+    <a href="portfolio.html">Portfolio</a>
+    <br>
+    
+    
+    <a href="contact.html">Contact</a>
+    <hr>
+    </div>
+</footer>
   </body>
 </html>

@@ -3,10 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+
     <title>Contact Page</title>
+    <style>
+        .h1,h2,p,footer,form{
+            font-family: "Electrolize", sans-serif;
+        }
+        .footer{
+    background-color: black;
+    text-decoration: aqua;
+        }
+        .box{
+        border: 2px solid black;
+        margin: 20px;}
+    </style>
 </head>
 <body>
+    <h1>Contacts</h1>
+    <div>
+        <div class="box">
+            <h3>Name:</h3>
+            <p>Maina Kamweru</p>
+            <hr>
+            <h3>Number:</h3>
+            <p>+254 706553306</p>
+            <hr>
+            <h3>Email:</h3>
+            <p>mainakamweru@gmail.com</p>
+            <hr>
+            <h3>Location:</h3>
+            <p>Nairobi</p>
+        </div>
+        <div class="box">
+        <form action="submit_contact">
+            <label for="name"><b>Your Name:</b></label>
+            <input type="text">
+            <br><br>
+            <label for="email"><b>Your Email:</b></label>
+            <input type="email">
+            <br><br>
+            <label for="number"><b>Your Number:</b></label>
+            <input type="number">
+            <br><br>
+            <label for="subject"><b>Subject:</b></label>
+            <input type="text" name="" id="">
+            <br><br>
+            </div>
+
+        </form>
+    </div>
+
+    <footer class="footer">
+    <div>
+    <a href="about.html">About</a>
+    <br>
+    <a href="portfolio.html">Portfolio</a>
+    <br>
+   
     
+    <a href="index.html">Home</a>
+    <hr>
+    </div>
+</footer>
     
 </body>
 </html>
